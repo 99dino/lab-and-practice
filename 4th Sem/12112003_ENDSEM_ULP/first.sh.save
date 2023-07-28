@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+read -p "enter no of terms of fibonacci series : " n
+echo $n
+a=0
+b=1
+ans=0
+if [ ans=$n -eq 1  ]
+then 
+	echo "equals to one"
+else 
+	echo "not equal to 1"
+fi
